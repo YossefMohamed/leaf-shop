@@ -1,0 +1,37 @@
+.header {
+  padding: 1.7rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+}
+
+.header__left {
+  width: 10%;
+}
+
+.header__right {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__right .option {
+  margin: 0 15px;
+}
+
+.header .option {
+  cursor: pointer;
+}
+/*# sourceMappingURL=header.css.map */

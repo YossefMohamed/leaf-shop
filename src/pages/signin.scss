@@ -1,0 +1,43 @@
+.signin{
+    width:45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .buttonContanier{
+        display: flex;
+        justify-content: space-between;
+        button{
+            min-width: 100px;
+
+        }
+    }
+}
+.signinout{
+    display: flex;
+    justify-content: space-around;
+  }
+  @media (max-width: 654px) { 
+    .signin , .sign-up{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        
+    }
+    .signin .buttonContanier{
+        display: flex;
+        justify-content: flex-start;
+        justify-content: start;
+
+        button{
+            margin-right: 15px;
+            min-width: 100px;
+
+        }}
+
+    .signinout{
+        display: flex;
+        flex-direction: column;
+       
+      }
+}

@@ -1,0 +1,15 @@
+body {
+  font-family: 'Open Sans Condensed';
+  font-size: 20px;
+  padding: 0 5rem;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -webkit-transition: background-size 2s;
+  transition: background-size 2s;
+}
+/*# sourceMappingURL=index.css.map */

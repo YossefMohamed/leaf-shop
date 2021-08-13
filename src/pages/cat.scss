@@ -1,0 +1,17 @@
+.cat--cont{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 80px 10px;
+}
+
+@media (max-width: 654px) { 
+    
+    .cat--cont{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px 5px;
+
+    }
+    
+        
+    }

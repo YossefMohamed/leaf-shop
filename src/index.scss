@@ -1,0 +1,18 @@
+
+body{
+    font-family: 'Open Sans Condensed';
+    font-size: 20px;
+    padding: 0 5rem;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: background-size 2s;
+}
+@media   (max-width: 654px) { 
+        body{
+            padding: 0 5px;
+        }
+    
+     }

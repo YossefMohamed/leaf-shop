@@ -1,0 +1,24 @@
+.sign-up {
+  width: 45vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sign-up .title {
+  margin: 10px 0;
+}
+
+.sign-up span {
+  font-size: 1.5rem;
+  color: gray;
+  margin: 1rem 0;
+  font-weight: light;
+}
+/*# sourceMappingURL=signup.css.map */

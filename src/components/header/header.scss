@@ -1,0 +1,43 @@
+.header{
+    border-bottom:3px solid black;
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    padding: 1.7rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    position:sticky;
+    top:0;
+    z-index:99;
+    background:white;
+    &__left{
+        width: 10%;
+    }
+    &__right{
+        justify-content: space-between;
+        display: flex;
+        .option{
+            margin:  0 15px;
+        }
+    }
+    .option{
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 654px) { 
+   
+    .header{
+        padding: 1.7rem 0;
+    }
+    
+     }
+
+     @media (max-width: 550px) { 
+
+     .header .header__right .option {
+        margin: 0 5px!important;
+    }}

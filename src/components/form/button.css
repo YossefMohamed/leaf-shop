@@ -1,0 +1,44 @@
+.customButton {
+  padding: 10px 17px;
+  border: 1px solid black;
+  cursor: pointer;
+  background: black;
+  color: white;
+  width: auto;
+  min-width: 165px;
+  -webkit-transition: 200ms ease-in all;
+  transition: 200ms ease-in all;
+  font-family: inherit;
+  font-size: 1.3rem;
+  outline: none;
+}
+
+.customButton:hover {
+  border: 1px solid black;
+  cursor: pointer;
+  background: white;
+  color: black;
+}
+
+div .googleButton {
+  background: #d82d2d;
+  border: 1px solid #d82d2d;
+}
+
+div .googleButton:hover {
+  border: 1px solid #d82d2d;
+  cursor: pointer;
+  background: white;
+  color: #d82d2d;
+}
+
+.buttonContanier {
+  margin: 3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=button.css.map */

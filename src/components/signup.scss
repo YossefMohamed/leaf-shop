@@ -1,0 +1,16 @@
+.sign-up{
+    width:45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .title{
+        margin:10px 0;
+    }
+    span{
+        font-size: 1.5rem;
+        color:gray;
+        margin:1rem 0;
+        font-weight: light;
+    }
+}
+      

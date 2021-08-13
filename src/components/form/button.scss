@@ -1,0 +1,40 @@
+.customButton{
+
+    padding:10px 17px;
+    border:1px solid black;
+    cursor: pointer;
+    background:black;
+    color:white;
+    width: auto;
+    min-width: 165px;
+    transition: 200ms ease-in all;
+    font-family: inherit;
+    font-size: 1.3rem;
+    outline:none;
+    &:hover {
+        border:1px solid black;
+        cursor: pointer;
+        background:white;
+        color:black; 
+    }
+
+
+}
+div .googleButton{
+    background:rgb(216, 45, 45);
+    border:1px solid rgb(216, 45, 45);
+
+    &:hover {
+        border:1px solid rgb(216, 45, 45);
+        cursor: pointer;
+        background:white;
+        color:rgb(216, 45, 45); 
+    }
+
+}
+.buttonContanier{
+   
+    margin: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
